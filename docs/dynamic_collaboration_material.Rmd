@@ -91,9 +91,9 @@ This is where GitHub comes in!
     * Each team can have different access to certain repositories
 
     For example: 
-    * This SORTEE Hackathon: github.com/SORTEE-Github-Hackathon
-    * Québec Centre for Biodiversity Science R Workshop Series: github.com/QCBSRworkshops
-    * German Centre for Integrative Biodiversity Research (iDiv): github.com/idiv-biodiversity
+    * This SORTEE Hackathon: [github.com/SORTEE-Github-Hackathon](github.com/SORTEE-Github-Hackathon)
+    * Québec Centre for Biodiversity Science R Workshop Series: [github.com/QCBSRworkshops](github.com/QCBSRworkshops)
+    * German Centre for Integrative Biodiversity Research (iDiv): [github.com/idiv-biodiversity](github.com/idiv-biodiversity)
 
 ## Issues and pull-requests
 
