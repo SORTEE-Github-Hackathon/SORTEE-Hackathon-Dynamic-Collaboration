@@ -1,3 +1,5 @@
+on: [push]
+
 name: learn-github-actions
 
 jobs:
