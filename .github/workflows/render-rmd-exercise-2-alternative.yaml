@@ -6,7 +6,7 @@ on:
      branches:
        - main
      paths:
-       - 'docs/dynamic_collaboration_exercise_2.Rmd'
+       - 'exercises/dynamic_collaboration_exercise_2.Rmd'
        - '.github/workflows/render-rmd-exercise-2.yaml'
   schedule:
        - cron: '0 0 * * *'
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: docs    
+        working-directory: exercises    
     env:
       GITHUB_PAT: ${{ secrets.ACCESS_TOKEN }}
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -65,7 +65,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: dynamic_collaboration_exercise_2
-          path: docs/  # uploads any file with this prefix in the root directory
+          path: exercises/  # uploads any file with this prefix in the root directory
   
 # Requires the creation of an empty gh-pages branch
 # see https://pkgdown.r-lib.org/reference/deploy_site_github.html
@@ -88,13 +88,13 @@ jobs:
          # Artifact name
          name: dynamic_collaboration_exercise_2 # optional
          # Destination path
-         path: docs/ # optional
+         path: exercises/ # optional
 
       - name: 💎 Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs/
-          TARGET_FOLDER: docs/
+          FOLDER: exercises/
+          TARGET_FOLDER: exercises/
           CLEAN: true
