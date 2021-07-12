@@ -117,12 +117,13 @@ Issues and pull-requests are at the heart of GitHub's appeal for collaboration a
 > Developers then make changes to the material, submit a pull request, which is then reviewed by the coordination team. This allows us to approve the changes, or give feedback to address any issues in the changes. <br>
 > For example: https://github.com/QCBSRworkshops/workshop08/pull/9.
 
-Issues and feature requests are often used in ecology and evolutionary biology research, in particular for packages. A few examples below:
-* [vegan](https://github.com/vegandevs/vegan)
-* [EcoJulia](https://github.com/EcoJulia)
-* [Stanford CCB](https://github.com/stanford-ccb)
-* [Atlas of Living Australia's ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R)
-* Even GitHub uses this type of feedback [github/feedback](https://github.com/github/feedback)
+Issues and feature requests are often used in ecology and evolutionary biology research, in particular for packages. A few examples below: 
+
+* [vegan](https://github.com/vegandevs/vegan)  
+* [EcoJulia](https://github.com/EcoJulia)  
+* [Stanford CCB](https://github.com/stanford-ccb)  
+* [Atlas of Living Australia's ALA4R](https://github.com/AtlasOfLivingAustralia/ALA4R)  
+* Even GitHub uses this type of feedback [github/feedback](https://github.com/github/feedback)  
 
 ## Hands-on exercise (15 mins):
 
@@ -139,6 +140,8 @@ This exercise's objective is to get a feel for how issues and pull requests work
 Here is a passage with some errors:<br>
 
 > This hakkathon has shown me that gitHUB is noT useful at all for collaborrations. It is especially NOT useful for the following things: .
+
+You can find this information in an [issue on our repository](https://github.com/SORTEE-Github-Hackathon/SORTEE-Hackathon-Dynamic-Collaboration/issues/2).
 
 :::
 
