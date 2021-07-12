@@ -166,7 +166,7 @@ You can also find tools for automatically showcasing contributions
 
 This is a new tool that is being introduced to GitHub, which is intended as a way to keep broader conversations open. For example, people can discuss a project at a conceptual level, have more in-depth discussions about what outputs *mean* (or don't mean), and more. This is another way of tracking and showcasing contributions outside of code or writing, which are often left out because they happen in private email chains or are simply hard to keep track of.
 
-You can take a peek on the [Discussions](https://github.com/pedrohbraga/SORTEE-Hackathon-Dynamic-Collaboration/discussions) tab for this repository. But, here are some examples of Github Discussions:
+You can take a peek on the [Discussions](https://github.com/sortee-github-hackathon/SORTEE-Hackathon-Dynamic-Collaboration/discussions) tab for this repository. But, here are some examples of Github Discussions:
 
 * [Problems in how we use data/GIS](https://github.com/albertkun/21S-ASIAAM-191A/discussions/24)
 * [Why SPEI?](https://github.com/HaireLab/community-stress-gradients/discussions/4)
@@ -243,7 +243,7 @@ Implemented Github Actions workflows can be found within the **Actions** directo
 
 For instance, the action workflow `learn-github-actions` that contains `check-bats-version` can be found at [SORTEE-Hackathon-Dynamic-Collaboration/actions](actions).
 
-We can also see obtain badges for our action: [![learn-github-actions](https://github.com/pedrohbraga/SORTEE-Hackathon-Dynamic-Collaboration/actions/workflows/check-bats-version.yaml/badge.svg)](https://github.com/pedrohbraga/SORTEE-Hackathon-Dynamic-Collaboration/actions/workflows/check-bats-version.yaml)
+We can also see obtain badges for our action: [![learn-github-actions](https://github.com/SORTEE-Github-Hackathon/SORTEE-Hackathon-Dynamic-Collaboration/actions/workflows/check-bats-version.yaml/badge.svg)](https://github.com/SORTEE-Github-Hackathon/SORTEE-Hackathon-Dynamic-Collaboration/actions/workflows/check-bats-version.yaml)
 
 ## Advanced examples
 
@@ -300,9 +300,9 @@ Take a look into the Github Actions workflow for the [ade4](https://github.com/s
 
 ## Hands-on-exercise #2: Modifying a Github Action! (~10 mins)
 
-It is fun-time #2!
+*It is fun-time #2!* 
 
-The objective of this part is to: (1) and (2).
+We have compiled data on penguins inhabiting the Palmer archipelago (Antarctica) and we created [this document](https://sortee-github-hackathon.github.io/SORTEE-Hackathon-Dynamic-Collaboration/docs/dynamic_collaboration_exercise_2.html) (*open it!*) to report the results of our analysis!
 
 # Useful material
 
