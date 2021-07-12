@@ -2,6 +2,9 @@ on:
   push:
      branches:
        - main
+  pull_request:
+     branches:
+       - main
      paths:
        - 'docs/dynamic_collaboration_exercise_2.Rmd'
        - '.github/workflows/render-rmd-exercise-2.yaml'
@@ -12,7 +15,7 @@ name: render-rmarkdown-exercise-2
 
 jobs:
   render-rmarkdown-exercise-2:
-    name: Render the RMarkdown exercise 2 report
+    name: Render the RMarkdown Exercise 2 document
     runs-on: ubuntu-latest
     defaults:
       run:
